@@ -1,0 +1,12 @@
+.container {
+  margin: 0px 300px;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.about-me-container .pic-container {
+  width: 50%;
+  text-align: center;
+  padding: 25px;
+}
+
