@@ -10,3 +10,8 @@
   padding: 25px;
 }
 
+img {
+  width: 250px;
+  height: 250px;
+  border-radius: 100%;
+}
