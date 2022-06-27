@@ -1,0 +1,14 @@
+nav {
+  width: 100%;
+  background-color: #c9ada7;
+}
+li {
+  display: inline;
+  width: 25%;
+  margin: 10%;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
