@@ -8,9 +8,7 @@ import Contact from "./components/Contact";
 function App() {
   return (
     <main>
-      <div>
-        <Nav></Nav>
-      </div>
+      <Nav></Nav>
       <div>
         <About></About>;
       </div>

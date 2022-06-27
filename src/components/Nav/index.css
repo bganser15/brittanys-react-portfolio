@@ -1,14 +1,35 @@
-nav {
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   width: 100%;
-  background-color: #c9ada7;
 }
-li {
-  display: inline;
-  width: 25%;
-  margin: 10%;
+header h1 {
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
   list-style: none;
+}
+
+nav ul li {
+  padding: 20px 100px;
 }
 
 a {
   text-decoration: none;
+}
+
+@media screen and (max-width: 890px) {
+  nav ul li {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
 }
