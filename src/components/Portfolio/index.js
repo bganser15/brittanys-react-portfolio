@@ -3,7 +3,7 @@ import "./index.css";
 
 function Portfolio() {
   return (
-    <section>
+    <section className="portfolio-container">
       <div className="project-cover col-1">
         <h5 class="project-cover-text">National Park Weather</h5>
         <img
@@ -29,14 +29,14 @@ function Portfolio() {
         ></img>
       </div>
       <div className="project-cover col-2">
-        <h5 class="project-cover-text">Password Genersator</h5>
+        <h5 class="project-cover-text">Password Generator</h5>
         <img
           className="portfolio-image"
           src={require("../../assets/img/passwordGenerator.png")}
           alt="Password Generator Project"
         ></img>
       </div>
-      <div className="project-cover col-2">
+      <div className="project-cover col-1">
         <h5 class="project-cover-text">Budget Tracker</h5>
         <img
           className="portfolio-image"
@@ -44,7 +44,7 @@ function Portfolio() {
           alt="Budget Tracker Project" 
         ></img>
       </div>
-      <div className="project-cover col-1">
+      <div className="project-cover col-2">
         <h5 class="project-cover-text">Javascript Quiz</h5>
         <img
           className="portfolio-image"
