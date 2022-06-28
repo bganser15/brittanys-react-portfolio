@@ -3,10 +3,8 @@ import "./index.css";
 
 function Nav(props) {
   const {
-    setAboutSelected,
-    setPortfolioSelected,
-    setResumeSelected,
-    setContactSelected,
+    setPageSelected,
+    pageSelected
   } = props;
   return (
     <header>
@@ -15,12 +13,7 @@ function Nav(props) {
           <li>
             <a
               href="#about"
-              onClick={() => {
-                setAboutSelected(true);
-                setPortfolioSelected(false);
-                setResumeSelected(false)
-                setContactSelected(false);
-              }}
+              onClick={() => setPageSelected("About")}
             >
               About
             </a>
@@ -28,35 +21,21 @@ function Nav(props) {
           <li>
             <a
               href="#portfolio"
-              onClick={() => {
-                setPortfolioSelected(true);
-                setAboutSelected(false);
-                setResumeSelected(false)
-                setContactSelected(false);
-              }}
+              onClick={() => setPageSelected("Portfolio")}
             >
               Portfolio
             </a>
           </li>
           <li>
-            <a href="#resume" onClick={() => {
-              setResumeSelected(true)
-              setAboutSelected(false)
-              setPortfolioSelected(false);
-              setContactSelected(false);
-              }}>
+            <a href="#resume" onClick={() => setPageSelected("Resume")}>
               Resume
             </a>
           </li>
           <li>
             <a
               href="#contact"
-              onClick={() => {
-                setContactSelected(true);
-                setAboutSelected(false);
-                setPortfolioSelected(false);
-                setResumeSelected(false)
-              }}
+              onClick={() => setPageSelected("Contact")}
+              
             >
               Contact
             </a>

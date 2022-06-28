@@ -7,50 +7,23 @@ import Resume from "./components/Resume";
 import Contact from "./components/Contact";
 
 function App() {
-  const [aboutSelected, setAboutSelected] = useState(false);
-  const [portfolioSelected, setPortfolioSelected] = useState(false);
-  const [resumeSelected, setResumeSelected] = useState(false);
-  const [contactSelected, setContactSelected] = useState(false);
+  const [pageSelected, setPageSelected] = useState("About");
+  const displayPage = () => {
+    if (pageSelected === "About") {
+    return <About/>}
+      if (pageSelected === "Portfolio") {
+      return <Portfolio/>}
+      if (pageSelected === "Resume") {
+      return <Resume/>}
+      if (pageSelected === "Contact") {
+      return <Contact/>}
+      }
+  
+
   return (
     <main>
-      <Nav
-        aboutSelected={aboutSelected}
-        setAboutSelected={setAboutSelected}
-        portfolioSelected={portfolioSelected}
-        setPortfolioSelected={setPortfolioSelected}
-        resumeSelected={resumeSelected}
-        setResumeSelected={setResumeSelected}
-        contactSelected={contactSelected}
-        setContactSelected={setContactSelected}
-      ></Nav>
-      {portfolioSelected ? (
-        <>
-          <Portfolio></Portfolio>
-        </>
-      ) : (
-        <>
-          <About></About>
-        </>
-      )}
-      {resumeSelected ? (
-        <>
-          <Resume></Resume>
-        </>
-      ) : (
-        <>
-          <About></About>
-        </>
-      )}
-
-      {contactSelected ? (
-        <>
-          <Contact></Contact>
-        </>
-      ) : (
-        <>
-          <About></About>
-        </>
-      )}
+      <Nav setPageSelected={setPageSelected}></Nav>
+      {displayPage()}
     </main>
   );
 }
