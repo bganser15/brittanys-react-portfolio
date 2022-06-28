@@ -11,6 +11,7 @@ function Portfolio() {
           src={require("../../assets/img/npsLandingPage.png")}
           alt="National Park Project"
         ></img>
+
       </div>
       <div className="project-cover col-2">
         <h5 class="project-cover-text">Alphabet Test</h5>

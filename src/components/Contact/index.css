@@ -1,0 +1,34 @@
+.contact-container{
+    margin: 0px auto;
+    width: 50%;
+      
+}
+
+.contact-container h1 {
+    text-align: center;
+}
+
+
+
+form input { 
+    margin:10px;
+    border-radius: 5px;
+    width: 100%;
+    background-color: whitesmoke;
+    padding: 5px;
+    
+}
+
+textarea {
+    margin:10px;
+    border-radius: 5px;
+    width: 100%;
+    background-color: whitesmoke
+}
+
+.submit-button {
+    background-color:thistle;
+    border-radius: 5px;
+    padding: 5px;
+    width: 100%;
+}
