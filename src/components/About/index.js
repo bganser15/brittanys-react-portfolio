@@ -5,7 +5,7 @@ function About() {
   return (
     <section className="container">
       <div className="pic-container">
-        <img src={require("../../assets/img/BrittanyHeadshot.jpg")} alt="Headshot of Brittany"></img>
+        <img className="profile-pic" src={require("../../assets/img/BrittanyHeadshot.jpg")} alt="Headshot of Brittany"></img>
       </div>
       <div className="about-me-container">
         <h1>Hi! I'm Brittany</h1>
