@@ -1,0 +1,30 @@
+.getInTouchSection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+  }
+  
+  .getInTouchSection img {
+    width: 75px;
+    align-items: center;
+  }
+  
+  .getInTouchSection div {
+    text-align: center;
+  }
+  
+  .icons {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+  
+  .links {
+    padding: 20px;
+  }
+  
+  .links:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+  }

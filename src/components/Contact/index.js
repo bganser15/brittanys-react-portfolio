@@ -80,12 +80,7 @@ function Contact() {
           Submit
         </button>
       </form>
-      <div className="social-container">
-        <h1>Let's Get Connected!</h1>
-        <a href="github.com">Github</a>
-        <a href="linkedin.com">LinkedIn</a>
-        <a href="email.com">Email</a>
-      </div>
+
     </section>
   );
 }
