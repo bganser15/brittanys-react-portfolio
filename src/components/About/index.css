@@ -1,17 +1,22 @@
+
+
 .container {
   margin: 0px;
   text-align: center;
-  margin-top: 100px;
+  margin-top: 50px;
+  
 }
 
 .about-me-container .pic-container {
   width: 50%;
   text-align: center;
-  padding: 25px;
+  margin-bottom: 50px;
+  padding: 50px;
 }
 
 .profile-pic {
   width: 250px;
   height: 250px;
   border-radius: 100%;
+  margin-bottom: 50px;
 }

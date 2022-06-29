@@ -1,8 +1,24 @@
 * {
-  background-color: #f2e9e4;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(/src/assets/img/backgroundImage.jpg);
+  background-size: cover;
+
+  
 }
 
 main {
-  margin: 0px 50px;
+  margin: 0px 100px;
+  background-color: rgb(245, 235, 224, 0.75);
+  padding: 0px 20px;
+  height:1000px;
+  box-shadow:0 0 20px rgba(0, 0, 0, 0.5) ;
+  
 }
 
+a:visited {
+  color: black;
+}
