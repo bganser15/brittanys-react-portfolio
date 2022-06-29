@@ -7,11 +7,18 @@
   
 }
 
-.about-me-container .pic-container {
-  width: 50%;
+.about-me-container {
+  
   text-align: center;
   margin-bottom: 50px;
+  margin: 0 200px 50px 200px;
   padding: 50px;
+}
+.pic-container {
+  
+  text-align: center;
+
+
 }
 
 .profile-pic {

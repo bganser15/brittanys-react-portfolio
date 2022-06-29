@@ -1,34 +1,33 @@
 .getInTouchSection {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    width: 100%;
-    position: relative;
-    bottom: 0;
-    
- 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+  position: relative;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
 
-  }
-  
-  .getInTouchSection img {
-    width: 50px;
-    align-items: center;
-  }
-  
-  .getInTouchSection div {
-    text-align: center;
-  }
-  
-  .icons {
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-  }
-  
-  .links {
-    padding: 20px;
-  }
-  
-  .links:hover {
-    border-radius: 20px;
-  }
+.getInTouchSection img {
+  width: 50px;
+  align-items: center;
+}
+
+.getInTouchSection div {
+  text-align: center;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.links {
+  padding: 20px;
+}
+
+.links:hover {
+  border-radius: 20px;
+}

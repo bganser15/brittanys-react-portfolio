@@ -4,19 +4,17 @@
 }
 
 body {
-  background-image: url(/src/assets/img/backgroundImage.jpg);
+  background-image: url(/src/assets/img/background3.jpg);
   background-size: cover;
-
-  
+  height: 100%;
 }
 
 main {
   margin: 0px 100px;
-  background-color: rgb(245, 235, 224, 0.75);
+  background-color: rgba(231, 228, 225, 0.75);
   padding: 0px 20px;
-  height:1000px;
-  box-shadow:0 0 20px rgba(0, 0, 0, 0.5) ;
-  
+  min-height:100vh;
+  box-shadow:0 0 50px rgba(0, 0, 0, 0.75) ;
 }
 
 a:visited {
