@@ -12,9 +12,6 @@
   src: url(./assets/Fonts/Sora-ExtraLight.ttf);
 }
 
-h1 h2 h4 h4 h5 {
-  font-family: sora;
-}
 body {
   background-image: url(/src/assets/img/background3.jpg);
   background-size: cover;

@@ -31,7 +31,8 @@ textarea {
 }
 
 .submit-button {
-  background-color: rgb(147, 157, 206);
+  background-color: lavender;
+  color: blue;
   border: none;
  
   border-radius: 10px;;

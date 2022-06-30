@@ -13,6 +13,7 @@ function Resume() {
         <li>MySQL</li>
         <li>MongoDB</li>
         <li>React</li>
+        <li>Github</li>
       </ul>
       </div>
       <button className="resume-button"><a href="../../assets/docs/BrittanyGanserResume.pdf" download>Download My Resume</a></button>

@@ -28,6 +28,6 @@
   padding: 20px;
 }
 
-.links:hover {
-  border-radius: 20px;
+.links:hover h3{
+  text-decoration: underline;
 }

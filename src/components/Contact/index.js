@@ -42,7 +42,7 @@ function Contact() {
   return (
     <section className="contact-container">
       <h1>Contact Me</h1>
-      <h3>Open for work and collaboration opportunities</h3>
+      <h3><i>Open for work and collaboration opportunities</i></h3>
       <form id="contact-form" onSubmit={handleSubmit}>
         <div className="form-area">
           <label htmlFor="name">Name:</label>

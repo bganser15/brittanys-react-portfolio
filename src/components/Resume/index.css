@@ -1,9 +1,9 @@
 .resume-container {
   text-align: center;
   background-color: whitesmoke;
-  margin: 100px 300px 100px 300px;
+  margin: 100px 300px 120px 300px;
   border-radius: 20px;
-  height: 450px;
+  height: 480px;
 }
 
 .resume-container h1 {
@@ -36,4 +36,10 @@ a:visited {
 a:active {
     color: black;
 
+}
+
+@media screen and (max-width: 1290px) {
+  .resume-container{
+    margin: 0;
+  }
 }

@@ -7,7 +7,7 @@
   width: 100%;
   vertical-align: top;
   border-radius: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 25px;
 }
 
 .project-cover-text {
@@ -24,7 +24,7 @@
   width: 94%;
   margin-top: 18%;
   padding: 20px;
-  background-color: rgb(143, 182, 211);
+  background-color: lavender;
   z-index: 100;
   justify-content: space-between;
 }
@@ -40,17 +40,18 @@
 .project-name {
   align-items: center;
   font-weight: bolder;
+  color: blue;
 }
 .deployed {
   text-align: right;
 }
 
 .github:hover a{
-  color:white;
+  color:blue
 }
 
 .deployed:hover a{
-  color:white;
+  color:blue
 }
 
 a:visited {
