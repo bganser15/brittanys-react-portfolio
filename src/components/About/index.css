@@ -48,3 +48,10 @@
 @keyframes spin {
   to{ transform: rotate(360deg);}
 }
+
+
+@media screen and (max-width: 1290px) {
+  .about-me-container{
+    margin: 0;
+  }
+}

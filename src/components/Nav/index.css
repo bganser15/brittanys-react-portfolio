@@ -37,7 +37,7 @@ a:visited {
 }
 
 
-@media screen and (max-width: 914px) {
+@media screen and (max-width: 1330px) {
   nav ul li {
     display: block;
     width: 100%;
