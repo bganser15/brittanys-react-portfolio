@@ -6,9 +6,11 @@
 
 ## Deployment
 
-Built using [Github Pages] (https://bganser15.github.io/brittanys-react-portfolio/)
+Built using [Github Pages](https://bganser15.github.io/brittanys-react-portfolio/)
 
 ## Snapshots
+
+<img width="1471" alt="portfolioScreenshot" src="https://user-images.githubusercontent.com/95111100/176598452-3fccf31a-1054-43b6-af25-2b08e8bbaa5b.png">
 
 
 ## Authors
