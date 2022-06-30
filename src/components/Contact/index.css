@@ -6,31 +6,35 @@
 
 .contact-container h1, h3 {
   text-align: center;
-  margin-bottom:px;
+  margin-bottom:20px;
 }
 
 
 form input {
   margin: 10px;
   border-radius: 20px;
-  width: 100%;
+  width: 98%;
   background-image: url(/src/assets/img/background3.jpg);
   padding: 5px;
   border: white;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
 textarea {
   margin: 25px;
-  border-radius: 5px;
+  border-radius: 20px;
+  padding: 5px;
   width: 100%;
   background-image: url(/src/assets/img/background3.jpg);
   border:white;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
 .submit-button {
-  background-color: lavender;
-  border-color: lavender;
-  border-radius: 5px;
+  background-color: rgb(147, 157, 206);
+  border: none;
+ 
+  border-radius: 10px;;
   padding: 10px;
   width:100%;
   text-align: center;
@@ -38,7 +42,7 @@ textarea {
 }
 
 .submit-button:hover {
-  background-color: rgb(147, 157, 206);
-  border-color: rgb(147, 157, 206);
+  
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 
 }

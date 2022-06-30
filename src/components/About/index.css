@@ -1,4 +1,7 @@
-
+@font-face {
+  font-family: pacifico-regular;
+  src: url(../../assets/Fonts/Pacifico-Regular.ttf);
+}
 
 .container {
   margin: 0px;
@@ -13,6 +16,11 @@
   margin-bottom: 50px;
   margin: 0 200px 50px 200px;
   padding: 50px;
+}
+
+.about-me-container h1 {
+  font-family: pacifico-regular;
+  margin-bottom: 20px;
 }
 .pic-container {
   max-width: 250px;

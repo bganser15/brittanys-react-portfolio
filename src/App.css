@@ -2,11 +2,24 @@
   margin: 0;
   padding: 0;
 }
+@font-face {
+  font-family: pacifico-regular;
+  src: url(./assets/Fonts/Pacifico-Regular.ttf);
+}
 
+@font-face {
+  font-family: sora;
+  src: url(./assets/Fonts/Sora-ExtraLight.ttf);
+}
+
+h1 h2 h4 h4 h5 {
+  font-family: sora;
+}
 body {
   background-image: url(/src/assets/img/background3.jpg);
   background-size: cover;
   height: 100%;
+  font-family: sora;
 }
 
 main {

@@ -15,7 +15,7 @@ function Resume() {
         <li>React</li>
       </ul>
       </div>
-      <div className="resume"><a href="../../assets/docs/BrittanyGanserResume.pdf" download>Download My Resume</a></div>
+      <button className="resume-button"><a href="../../assets/docs/BrittanyGanserResume.pdf" download>Download My Resume</a></button>
     </section>
   );
 }
