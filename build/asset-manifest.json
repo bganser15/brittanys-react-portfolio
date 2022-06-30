@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.52fd0a80.css",
+    "main.js": "/static/js/main.7ed8e070.js",
+    "static/js/787.1a9746a8.chunk.js": "/static/js/787.1a9746a8.chunk.js",
+    "static/media/background3.jpg": "/static/media/background3.d2cbce9c47b685fdf886.jpg",
+    "static/media/npsLandingPage.png": "/static/media/npsLandingPage.ee7b38903d075b3105a4.png",
+    "static/media/Pacifico-Regular.ttf": "/static/media/Pacifico-Regular.c0d735fc04154e03a691.ttf",
+    "static/media/javascriptQuiz.png": "/static/media/javascriptQuiz.cafd3970012121e687e1.png",
+    "static/media/budgetTracker.png": "/static/media/budgetTracker.6b96933ee04434bea3d1.png",
+    "static/media/BrittanyHeadshot.jpg": "/static/media/BrittanyHeadshot.0b0e75c67ba958a220c3.jpg",
+    "static/media/workdayLanding.png": "/static/media/workdayLanding.876a4ca0561300eaae75.png",
+    "static/media/passwordGenerator.png": "/static/media/passwordGenerator.fee85a2260122c4b52d5.png",
+    "static/media/alphabetTest.png": "/static/media/alphabetTest.95fafca0ac442e804114.png",
+    "static/media/Sora-ExtraLight.ttf": "/static/media/Sora-ExtraLight.6a1229bf672d1e012528.ttf",
+    "static/media/linkedin.png": "/static/media/linkedin.92380c03cc82f139a166.png",
+    "static/media/github.svg": "/static/media/github.c20f38ca39f02acf75d1aa9994103909.svg",
+    "static/media/email.svg": "/static/media/email.55ea68366862747a7d19c6e76db9d79d.svg",
+    "index.html": "/index.html",
+    "main.52fd0a80.css.map": "/static/css/main.52fd0a80.css.map",
+    "main.7ed8e070.js.map": "/static/js/main.7ed8e070.js.map",
+    "787.1a9746a8.chunk.js.map": "/static/js/787.1a9746a8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.52fd0a80.css",
+    "static/js/main.7ed8e070.js"
+  ]
+}

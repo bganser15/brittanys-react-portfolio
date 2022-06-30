@@ -1,0 +1,15 @@
+{
+  "short_name": "Brittany's Portfolio",
+  "name": "Brittany Ganser's Portfolio",
+  "icons": [
+    {
+      "src": "../src/assets/img/Faveicon.io.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
