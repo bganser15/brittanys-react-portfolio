@@ -4,6 +4,7 @@ import "./index.css";
 function Portfolio() {
   return (
     <section className="portfolio-container">
+      <h1>Check out some of my projects and their Github repositories!</h1>
       <div className="project-cover col-1">
         <div className="project-cover-text">
           <span className="github">

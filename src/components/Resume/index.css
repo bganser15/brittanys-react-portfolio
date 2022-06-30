@@ -1,0 +1,36 @@
+.resume-container {
+  text-align: center;
+  background-color: whitesmoke;
+  margin: 100px 300px 100px 300px;
+  border-radius: 20px;
+  height: 450px;
+}
+
+.resume-container h1 {
+    padding-top: 20px;
+}
+
+.resume-container ul li {
+  list-style: none;
+  margin: 15px;
+}
+
+.resume {
+  padding:15px;
+  width: 250px;
+  border-radius: 10px;
+
+  margin: 0px auto 150px auto;
+}
+.resume:hover {
+  background-color: lavender;
+
+  
+}
+a:visited {
+  color: black;
+}
+a:active {
+    color: black;
+
+}

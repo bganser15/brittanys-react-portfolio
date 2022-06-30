@@ -1,10 +1,22 @@
 import React from "react";
-
+import "./index.css"
 function Resume() {
   return (
-    <div>
-      <h2>Resume goes here</h2>
-    </div>
+    <section className="resume-container">
+      <div className="skills">
+      <h1>Skills</h1>
+      <ul>
+        <li>HTML and CSS</li>
+        <li>Javascript(ES6)</li>
+        <li>Node.js</li>
+        <li>Express.js</li>
+        <li>MySQL</li>
+        <li>MongoDB</li>
+        <li>React</li>
+      </ul>
+      </div>
+      <div className="resume"><a href="../../assets/docs/BrittanyGanserResume.pdf" download>Download My Resume</a></div>
+    </section>
   );
 }
 

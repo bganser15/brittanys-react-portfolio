@@ -4,10 +4,9 @@ import "./index.css";
 function Nav(props) {
   const {
     setPageSelected,
-    pageSelected
   } = props;
   return (
-    <header>
+    <header className="nav-header">
       <nav>
         <ul>
           <li>
