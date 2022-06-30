@@ -5,16 +5,31 @@ function Portfolio() {
   return (
     <section className="portfolio-container">
       <div className="project-cover col-1">
-        <h5 class="project-cover-text">National Park Weather</h5>
+        <div className="project-cover-text">
+          <span className="github">
+            <a href="github.com">Github</a>
+          </span>
+          <span className="project-name">National Park Weather</span>
+          <span className="deployed">
+            <a href="github.com">Deployed</a>
+          </span>
+        </div>
         <img
           className="portfolio-image"
           src={require("../../assets/img/npsLandingPage.png")}
           alt="National Park Project"
         ></img>
-
       </div>
       <div className="project-cover col-2">
-        <h5 class="project-cover-text">Alphabet Test</h5>
+        <div className="project-cover-text">
+          <span className="github">
+            <a href="github.com">Github</a>
+          </span>
+          <span className="project-name">Alphabet Test</span>
+          <span className="deployed">
+            <a href="github.com">Deployed</a>
+          </span>
+        </div>
         <img
           className="portfolio-image"
           src={require("../../assets/img/alphabetTest.png")}
@@ -22,7 +37,13 @@ function Portfolio() {
         ></img>
       </div>
       <div className="project-cover col-1">
-        <h5 class="project-cover-text">Workday Scheduler</h5>
+        <div className="project-cover-text">
+          <span className="github">
+            <a href="github.com">Github</a>
+          </span>
+          <span className="project-name">Workday Scheduler</span>
+          <span className="deployed">Deployed</span>
+        </div>
         <img
           className="portfolio-image"
           src={require("../../assets/img/workdayLanding.png")}
@@ -30,7 +51,13 @@ function Portfolio() {
         ></img>
       </div>
       <div className="project-cover col-2">
-        <h5 class="project-cover-text">Password Generator</h5>
+        <div className="project-cover-text">
+          <span className="github">
+            <a href="github.com">Github</a>
+          </span>
+          <span className="project-name">Password Generator</span>
+          <span className="deployed">Deployed</span>
+        </div>
         <img
           className="portfolio-image"
           src={require("../../assets/img/passwordGenerator.png")}
@@ -38,15 +65,27 @@ function Portfolio() {
         ></img>
       </div>
       <div className="project-cover col-1">
-        <h5 class="project-cover-text">Budget Tracker</h5>
+        <div className="project-cover-text">
+          <span className="github">
+            <a href="github.com">Github</a>
+          </span>
+          <span className="project-name">Budget Tracker</span>
+          <span className="deployed">Deployed</span>
+        </div>
         <img
           className="portfolio-image"
           src={require("../../assets/img/budgetTracker.png")}
-          alt="Budget Tracker Project" 
+          alt="Budget Tracker Project"
         ></img>
       </div>
       <div className="project-cover col-2">
-        <h5 class="project-cover-text">Javascript Quiz</h5>
+        <div className="project-cover-text">
+          <span className="github">
+            <a href="github.com">Github</a>
+          </span>
+          <span className="project-name">Javascript Quiz</span>
+          <span className="deployed">Deployed</span>
+        </div>
         <img
           className="portfolio-image"
           src={require("../../assets/img/javascriptQuiz.png")}

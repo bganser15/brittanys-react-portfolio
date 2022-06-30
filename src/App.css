@@ -16,7 +16,3 @@ main {
   min-height:100vh;
   box-shadow:0 0 50px rgba(0, 0, 0, 0.75) ;
 }
-
-a:visited {
-  color: black;
-}
