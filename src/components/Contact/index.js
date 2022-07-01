@@ -24,7 +24,7 @@ function Contact() {
       }
     } else {
       if (!e.target.value.length) {
-        setErrorMessage(`${e.target.name} is required.`);
+        setErrorMessage(`${e.target.name.toUpperCase()} is required.`);
       } else {
         setErrorMessage("");
       }
@@ -73,7 +73,7 @@ function Contact() {
         </div>
         {/* checking to see if error message is true using AND operator and rendering div is true */}
         {errorMessage && (
-          <div>
+          <div className="error-container">
             <p className="error-text">{errorMessage}</p>
           </div>
         )}

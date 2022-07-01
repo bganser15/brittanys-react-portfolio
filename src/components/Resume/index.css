@@ -21,12 +21,13 @@
   border: none;
   border-radius: 10px;
   background-color: lavender;
-
   margin: 0px auto 150px auto;
+  font-family: sora;
 }
 .resume-button:hover {
   background-color: lavender;
-  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  outline: 2px solid white;
+  outline-offset: -4px;
 
   
 }

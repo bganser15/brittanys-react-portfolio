@@ -39,7 +39,7 @@ a:visited {
 }
 
 .active {
-  background-color: rgba(255, 255, 255, 0.5);
+  background-image: url(../../assets/img/background3.jpg);
   border-radius: 10px;;
 }
 
