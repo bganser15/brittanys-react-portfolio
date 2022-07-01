@@ -9,6 +9,7 @@ import Footer from "./components/Footer";
 
 function App() {
   const [pageSelected, setPageSelected] = useState("About");
+
   const displayPage = () => {
     if (pageSelected === "About") {
     return <About/>}
@@ -23,7 +24,10 @@ function App() {
 
   return (
     <main>
-      <Nav setPageSelected={setPageSelected}></Nav>
+      <Nav 
+      setPageSelected={setPageSelected}
+      pageSelected={pageSelected}
+      ></Nav>
       {displayPage()}
       <Footer></Footer>
     </main>

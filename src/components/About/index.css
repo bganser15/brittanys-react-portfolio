@@ -7,11 +7,9 @@
   margin: 0px;
   text-align: center;
   margin-top: 50px;
-  
 }
 
 .about-me-container {
-  
   text-align: center;
   margin-bottom: 50px;
   margin: 0 200px 50px 200px;
@@ -22,13 +20,12 @@
   font-family: pacifico-regular;
   margin-bottom: 20px;
 }
+
 .pic-container {
   max-width: 250px;
   margin: 0 auto;
   position: relative;
   text-align: center;
-
-
 }
 
 .profile-pic {
@@ -37,7 +34,6 @@
   border-radius: 100%;
   margin-bottom: 20px;
   display: block;
-  
 }
 
 .pic-container::before {

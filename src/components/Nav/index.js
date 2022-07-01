@@ -4,12 +4,13 @@ import "./index.css";
 function Nav(props) {
   const {
     setPageSelected,
+    pageSelected
   } = props;
   return (
     <header className="nav-header">
       <nav>
         <ul>
-          <li>
+          <li className={pageSelected === 'About' ? 'active' : 'nav-link'}>
             <a
               href="#about"
               onClick={() => setPageSelected("About")}
@@ -17,7 +18,7 @@ function Nav(props) {
               About
             </a>
           </li>
-          <li>
+          <li className={pageSelected === 'Portfolio' ? 'active' : 'nav-link'}>
             <a
               href="#portfolio"
               onClick={() => setPageSelected("Portfolio")}
@@ -25,12 +26,12 @@ function Nav(props) {
               Portfolio
             </a>
           </li>
-          <li>
+          <li className={pageSelected === 'Resume' ? 'active' : 'nav-link'} >
             <a href="#resume" onClick={() => setPageSelected("Resume")}>
               Resume
             </a>
           </li>
-          <li>
+          <li className={pageSelected === 'Contact' ? 'active' : 'nav-link'}>
             <a
               href="#contact"
               onClick={() => setPageSelected("Contact")}
