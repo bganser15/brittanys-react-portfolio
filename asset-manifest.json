@@ -1,8 +1,7 @@
 {
   "files": {
-    "main.css": "/brittanys-react-portfolio/static/css/main.9ce45d51.css",
-    "main.js": "/brittanys-react-portfolio/static/js/main.d3251607.js",
-    "static/js/787.1a9746a8.chunk.js": "/brittanys-react-portfolio/static/js/787.1a9746a8.chunk.js",
+    "main.css": "/brittanys-react-portfolio/static/css/main.f0271f70.css",
+    "main.js": "/brittanys-react-portfolio/static/js/main.6aea82ee.js",
     "static/media/background3.jpg": "/brittanys-react-portfolio/static/media/background3.d2cbce9c47b685fdf886.jpg",
     "static/media/npsLandingPage.png": "/brittanys-react-portfolio/static/media/npsLandingPage.ee7b38903d075b3105a4.png",
     "static/media/Pacifico-Regular.ttf": "/brittanys-react-portfolio/static/media/Pacifico-Regular.c0d735fc04154e03a691.ttf",
@@ -17,12 +16,11 @@
     "static/media/github.svg": "/brittanys-react-portfolio/static/media/github.c20f38ca39f02acf75d1aa9994103909.svg",
     "static/media/email.svg": "/brittanys-react-portfolio/static/media/email.55ea68366862747a7d19c6e76db9d79d.svg",
     "index.html": "/brittanys-react-portfolio/index.html",
-    "main.9ce45d51.css.map": "/brittanys-react-portfolio/static/css/main.9ce45d51.css.map",
-    "main.d3251607.js.map": "/brittanys-react-portfolio/static/js/main.d3251607.js.map",
-    "787.1a9746a8.chunk.js.map": "/brittanys-react-portfolio/static/js/787.1a9746a8.chunk.js.map"
+    "main.f0271f70.css.map": "/brittanys-react-portfolio/static/css/main.f0271f70.css.map",
+    "main.6aea82ee.js.map": "/brittanys-react-portfolio/static/js/main.6aea82ee.js.map"
   },
   "entrypoints": [
-    "static/css/main.9ce45d51.css",
-    "static/js/main.d3251607.js"
+    "static/css/main.f0271f70.css",
+    "static/js/main.6aea82ee.js"
   ]
 }
