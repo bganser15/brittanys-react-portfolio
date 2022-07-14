@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/brittanys-react-portfolio/static/css/main.f0271f70.css",
-    "main.js": "/brittanys-react-portfolio/static/js/main.6aea82ee.js",
+    "main.js": "/brittanys-react-portfolio/static/js/main.fd1615f8.js",
     "static/media/background3.jpg": "/brittanys-react-portfolio/static/media/background3.d2cbce9c47b685fdf886.jpg",
     "static/media/npsLandingPage.png": "/brittanys-react-portfolio/static/media/npsLandingPage.ee7b38903d075b3105a4.png",
     "static/media/Pacifico-Regular.ttf": "/brittanys-react-portfolio/static/media/Pacifico-Regular.c0d735fc04154e03a691.ttf",
@@ -17,10 +17,10 @@
     "static/media/email.svg": "/brittanys-react-portfolio/static/media/email.55ea68366862747a7d19c6e76db9d79d.svg",
     "index.html": "/brittanys-react-portfolio/index.html",
     "main.f0271f70.css.map": "/brittanys-react-portfolio/static/css/main.f0271f70.css.map",
-    "main.6aea82ee.js.map": "/brittanys-react-portfolio/static/js/main.6aea82ee.js.map"
+    "main.fd1615f8.js.map": "/brittanys-react-portfolio/static/js/main.fd1615f8.js.map"
   },
   "entrypoints": [
     "static/css/main.f0271f70.css",
-    "static/js/main.6aea82ee.js"
+    "static/js/main.fd1615f8.js"
   ]
 }

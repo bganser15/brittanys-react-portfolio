@@ -149,17 +149,17 @@ function Portfolio() {
         <div className="project-cover-text">
           <span className="github">
             <a
-              href="https://github.com/bganser15/coding-quiz"
+              href="https://github.com/bganser15/Emoji-Hero"
               target="_blank"
               rel="noreferrer"
             >
               Github
             </a>
           </span>
-          <span className="project-name">Javascript Quiz</span>
+          <span className="project-name">Emoji Hero</span>
           <span className="deployed">
             <a
-              href="https://bganser15.github.io/coding-quiz/"
+              href="https://emoji-hero.herokuapp.com/login"
               target="_blank"
               rel="noreferrer"
             >
@@ -169,8 +169,8 @@ function Portfolio() {
         </div>
         <img
           className="portfolio-image"
-          src={require("../../assets/img/javascriptQuiz.png")}
-          alt="Javascript Quiz Project"
+          src={require("../../assets/img/emojiHero.png")}
+          alt="Emoji Hero"
         ></img>
       </div>
     </section>
