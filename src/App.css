@@ -24,7 +24,8 @@ main {
   margin: 0px 150px;
   background-color: rgba(231, 228, 225, 0.75);
   padding: 0px 20px;
-  min-height:100vh;
+  min-height: 100%;
+  contain: content;
   box-shadow:0 0 50px rgba(0, 0, 0, 0.75) ;
 }
 

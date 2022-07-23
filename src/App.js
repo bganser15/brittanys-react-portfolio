@@ -4,7 +4,7 @@ import About from "./components/About";
 import Nav from "./components/Nav";
 import Portfolio from "./components/Portfolio";
 import Resume from "./components/Resume";
-import Contact from "./components/Contact";
+//import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
 function App() {
@@ -17,9 +17,10 @@ function App() {
       return <Portfolio/>}
       if (pageSelected === "Resume") {
       return <Resume/>}
-      if (pageSelected === "Contact") {
+      /* if (pageSelected === "Contact") {
       return <Contact/>}
-      }
+      } */
+    }
   
 
   return (

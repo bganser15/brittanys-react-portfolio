@@ -9,7 +9,7 @@ function About() {
       </div>
       <div className="about-me-container">
         <h1>Hi! I'm Brittany Ganser!</h1>
-        <p>I graduated from Baldwin Wallace University in Cleveland, OH with a BA in Theatre and minor in Web Programming. I am currently studying at Michigan State University's Coding Bootcamp to become a full stack web developer. I am excited to take my love for art and design and translate it into beautiful websites and work on projects to help better our communities.</p>
+        <p>I graduated from Baldwin Wallace University in Cleveland, OH with a BA in Theatre and minor in Web Programming. I have recently received my Full Stack Web Development Certificate from Michigan State University. I am excited to take my love for art and design and translate it into beautiful applications and work on projects to help better our communities.</p>
         <br/>
         <p>When I'm not coding you can find me painting abstract art, enjoying nature or practicing yoga.</p>
         <br />

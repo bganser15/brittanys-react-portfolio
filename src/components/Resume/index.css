@@ -1,27 +1,19 @@
+.resume img {
+  width:100%;
+  margin: 0 auto;
+}
+
 .resume-container {
   text-align: center;
-  background-color: whitesmoke;
-  margin: 100px 300px 120px 300px;
-  border-radius: 20px;
-  height: 480px;
+  margin: 10px 300px 100px 300px;
 }
-
-.resume-container h1 {
-    padding-top: 20px;
-}
-
-.resume-container ul li {
-  list-style: none;
-  margin: 15px;
-}
-
 .resume-button {
   padding:15px;
   width: 250px;
   border: none;
   border-radius: 10px;
   background-color: lavender;
-  margin: 0px auto 150px auto;
+  margin: 10px auto 0px auto;
   font-family: sora;
 }
 .resume-button:hover {
@@ -39,7 +31,7 @@ a:active {
 
 }
 
-@media screen and (max-width: 1290px) {
+@media screen and (max-width: 1600px) {
   .resume-container{
     margin: 0;
   }

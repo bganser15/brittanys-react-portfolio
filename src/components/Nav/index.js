@@ -31,7 +31,7 @@ function Nav(props) {
               Resume
             </a>
           </li>
-          <li className={pageSelected === 'Contact' ? 'active' : 'nav-link'}>
+         {/*  <li className={pageSelected === 'Contact' ? 'active' : 'nav-link'}>
             <a
               href="#contact"
               onClick={() => setPageSelected("Contact")}
@@ -39,7 +39,7 @@ function Nav(props) {
             >
               Contact
             </a>
-          </li>
+          </li> */}
         </ul>
       </nav>
     </header>
