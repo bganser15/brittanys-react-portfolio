@@ -3,9 +3,9 @@
   "name": "Brittany Ganser's Portfolio",
   "icons": [
     {
-      "src": "myicon.ico",
+      "src": "/myicon.ico",
       "sizes": "48x48",
-      "type": "image/x-icon"
+      "type": "image/png"
     }
   ],
   "start_url": ".",
