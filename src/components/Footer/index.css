@@ -31,3 +31,13 @@
 .links:hover h3{
   text-decoration: underline;
 }
+
+
+@media screen and (max-width: 1100px) {
+  .getInTouchSection img {
+    width: 40px;
+}
+  h3 {
+    font-size: smaller;
+  }
+}

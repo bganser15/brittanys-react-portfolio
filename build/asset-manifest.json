@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/brittanys-react-portfolio/static/css/main.b0600674.css",
-    "main.js": "/brittanys-react-portfolio/static/js/main.a1e04c37.js",
+    "main.js": "/brittanys-react-portfolio/static/js/main.5c967be5.js",
     "static/media/background3.jpg": "/brittanys-react-portfolio/static/media/background3.d2cbce9c47b685fdf886.jpg",
     "static/media/npsLandingPage.png": "/brittanys-react-portfolio/static/media/npsLandingPage.ee7b38903d075b3105a4.png",
     "static/media/BrittanyGanserWebDevResume.png": "/brittanys-react-portfolio/static/media/BrittanyGanserWebDevResume.e606420828bfd1bf6b37.png",
@@ -18,10 +18,10 @@
     "static/media/email.svg": "/brittanys-react-portfolio/static/media/email.55ea68366862747a7d19c6e76db9d79d.svg",
     "index.html": "/brittanys-react-portfolio/index.html",
     "main.b0600674.css.map": "/brittanys-react-portfolio/static/css/main.b0600674.css.map",
-    "main.a1e04c37.js.map": "/brittanys-react-portfolio/static/js/main.a1e04c37.js.map"
+    "main.5c967be5.js.map": "/brittanys-react-portfolio/static/js/main.5c967be5.js.map"
   },
   "entrypoints": [
     "static/css/main.b0600674.css",
-    "static/js/main.a1e04c37.js"
+    "static/js/main.5c967be5.js"
   ]
 }

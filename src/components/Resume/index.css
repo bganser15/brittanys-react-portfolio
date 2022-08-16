@@ -1,11 +1,11 @@
 .resume img {
   width:100%;
-  margin: 0 auto;
+  margin: 0 auto 50px auto;
 }
 
 .resume-container {
   text-align: center;
-  margin: 10px 300px 100px 300px;
+  margin: 10px 300px 50px 300px;
 }
 .resume-button {
   padding:15px;
