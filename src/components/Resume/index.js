@@ -10,7 +10,7 @@ function Resume() {
         ></img>
       </div>
       <button className="resume-button">
-        <a href="/BrittanyGanserWebDevResume.png" download>
+        <a href="BrittanyGanserWebDevResume.png" download>
           Download My Resume
         </a>
       </button>
